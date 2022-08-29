@@ -10,13 +10,9 @@
 <a href="https://cdnjs.com/libraries/UAParser.js"><img src="https://img.shields.io/cdnjs/v/UAParser.js.svg"></a>
 </p>
 
-# UAParser.js
+# user-agent.js
 
-JavaScript library to detect Browser, Engine, OS, CPU, and Device type/model from User-Agent data with relatively small footprint (~17KB minified, ~6KB gzipped) that can be used either in browser (client-side) or node.js (server-side).
-
-* Author    : Faisal Salman <<f@faisalman.com>>
-* Demo      : https://faisalman.github.io/ua-parser-js
-* Source    : https://github.com/faisalman/ua-parser-js
+JavaScript library to detect Browser, Engine, OS, CPU, and Device type/model from User-Agent data with relatively small footprint (~17KB minified, ~6KB gzipped) that can be used either in browser (client-side) or node.js 
 
 # Documentation
 
@@ -261,21 +257,7 @@ var myUA = 'Mozilla/5.0 MyBrowser/1.3';
 console.log(myParser.setUA(myUA).getBrowser());  // {name: "MyBrowser", version: "1.3"}
 ```
 
-# Development
 
-## Sponsors
-
-<a href="https://opencollective.com/ua-parser-js"><img src="https://opencollective.com/ua-parser-js/tiers/backers.svg?avatarHeight=64" height="80"/></a> <a href="https://opencollective.com/ua-parser-js"><img src="https://opencollective.com/ua-parser-js/tiers/sponsors.svg?avatarHeight=64" height="80"/></a>
-
-<a href="https://www.paypal.me/faisalman/"><img src="https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg" height="40"></a>
-
-## Contributors
-
-<a href="https://github.com/faisalman/ua-parser-js/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=faisalman/ua-parser-js" />
-</a>
-
-Made with [contributors-img](https://contrib.rocks).
 
 ## How To Contribute
 
@@ -285,26 +267,4 @@ Made with [contributors-img](https://contrib.rocks).
 * Run the test suites to make sure it's not breaking anything `$ npm test`
 * Submit a pull request under `develop` branch
 
-# License
 
-MIT License
-
-Copyright (c) 2012-2021 Faisal Salman <<f@faisalman.com>>
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
