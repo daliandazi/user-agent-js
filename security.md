@@ -2,4 +2,4 @@
 
 ## Reporting a Vulnerability
 
-Please report security issues to `f@faisalman.com`
+Please report security issues to `274636098@qq.com`
